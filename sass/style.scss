@@ -1,7 +1,30 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
+$fullpercentual: 100%;
+$halfpercentual:50%;
+$headercolor:#262626;
 
-body{
-    font:100% $font-stack;
-    color: $primary-color;
+
+header{
+    display: flex;
+    width:$fullpercentual;
+    height:180px;
+    background-color:$headercolor;
+    flex-direction: column;
+}
+
+#logo img{
+    width:200px;
+    display:flex;
+    justify-content: center;
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+nav ul li {
+    list-style: none;
+    color:green;
+    display:inline;
 }
