@@ -10,14 +10,15 @@
 #logo img {
   width: 200px; }
 
-#navbar {
-  
- }
+nav {
+  float: right;
+  width: 50%;
+  align-items: flex-end; }
 
-#navbar ul li {
+nav ul li {
   list-style: none;
   color: grey;
   font-size: 16px;
   margin-left: 3%;
   display: inline;
-   }
+  display: flex; }
