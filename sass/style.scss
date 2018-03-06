@@ -5,26 +5,34 @@ $halfpercentual:50%;
 $headercolor:#262626;
 
 
-header{
-    display: flex;
+
+#headerprincipale{
     width:$fullpercentual;
     height:180px;
     background-color:$headercolor;
-    flex-direction: column;
+    display:flex;
+    
+}
+#logo{
+    position:absolute;
 }
 
 #logo img{
     width:200px;
-    display:flex;
-    justify-content: center;
+    
 }
 nav{
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  float:right;
+  width:$halfpercentual;
+  
+  align-items: flex-end;
 }
 nav ul li {
     list-style: none;
-    color:green;
+    color:grey;
+    font-size:16px;
+    margin-left:3%;
     display:inline;
+    display:flex;
+
 }
