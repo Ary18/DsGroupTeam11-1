@@ -14,7 +14,7 @@
 <body>
     <header>
         <article>
-header
+            header
         </article>
     </header>
     <main>
@@ -29,7 +29,8 @@ header
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <a href="#" class="thumbnail">
+                                        <a href="#" class="thumbnail"
+                                        data-toggle="modal" data-src="https://youtu.be/eP77-5unjY4" data-target="#myModal">
                                             <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
@@ -51,15 +52,38 @@ header
                                 </div>
                                 <!--.row-->
                             </div>
-                                </div>
-                                <!--.row-->
-                            </div>
-                            
                         </div>
+                        <!--.row-->
                     </div>
-                    <!--.Carousel-->
 
                 </div>
+            </div>
+            <!--.Carousel-->
+
+        </div>
+
+
+        <div class="container">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+
+                        <div class="modal-body">
+                                <iframe width="940" height="660" src="https://www.youtube.com/embed/9KtkGNoNhkg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always">></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -175,6 +199,7 @@ header
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/tether/dist/js/tether.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
