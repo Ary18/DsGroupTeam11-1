@@ -56,24 +56,30 @@ opacity:1;
     align-items: center;
 }
 
-.imgArtDirection{
-    margin: 5%;
+#sectionPicture{
+    display: flex;
+    flex-direction: row;
 }
+.divGrande{
+    display: flex;
+    flex-direction: column;
+}
+
 @media(min-width:800px){
-    #divMedio, #divPiccolo{
+    .divMedio, .divPiccolo{
         display: none;
     }
 }
 @media(max-width:800px){
-    #divGrande, #divPiccolo{
+    .divGrande, .divPiccolo{
         display: none;
     }
 }
 @media(max-width:400px){
-    #divMedio, #divGrande{
+    .divMedio, .divGrande{
         display: none;
     }
-    #divPiccolo{
+    .divPiccolo{
         display: block;
     }
 }
