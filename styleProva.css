@@ -56,14 +56,14 @@ opacity:1;
     align-items: center;
 }
 
-#sectionPicture{
+/* #sectionPicture{
     display: flex;
     flex-direction: row;
 }
 .divGrande{
     display: flex;
     flex-direction: column;
-}
+} */
 
 @media(min-width:800px){
     .divMedio, .divPiccolo{
