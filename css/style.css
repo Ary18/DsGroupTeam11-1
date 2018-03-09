@@ -370,7 +370,7 @@ a:hover {
 .hamburgermenu {
   display: none; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1158px) {
   .hamburgermenu {
     display: unset; }
   .fill {
@@ -378,10 +378,11 @@ a:hover {
   #wrap {
     display: none;
     margin: 79px 41px; }
-  #headerpricinpale {
+  #headerprincipale {
+    display: flex;
     flex-direction: row-reverse; } }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1158px) {
   .fill {
     display: none; }
   #wrap {
