@@ -606,4 +606,25 @@ opacity:1;
   .dimenx3{
     width: 100%;
   }
+    font:100% $font-stack;
+    color: $primary-color;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.dimensioni{
+    width: 25%;
+}
+.contenitoreFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+@media(max-width:1000px){
+    .contenitoreFlex{
+        flex-direction: column;
+    }
+    .dimensioni{
+        width: 100%;
+    }
 }

@@ -481,4 +481,19 @@ body {
   .dimenx2 {
     width: 100%; }
   .dimenx3 {
+  width: 100%; }
+
+.dimensioni {
+  width: 25%; }
+
+.contenitoreFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1; }
+
+@media (max-width: 1000px) {
+  .contenitoreFlex {
+    flex-direction: column; }
+  .dimensioni {
     width: 100%; } }
+  }
