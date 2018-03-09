@@ -590,3 +590,20 @@ opacity:1;
       display: block;
   }
 }
+@media(max-width:480px){
+  #contFlex{
+    flex-direction: column;
+  }
+  .dimenx{
+    width: 100%;
+  }
+  .dimenx1{
+    width: 100%;
+  }
+  .dimenx2{
+    width: 100%;
+  }
+  .dimenx3{
+    width: 100%;
+  }
+}
