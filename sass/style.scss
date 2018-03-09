@@ -16,3 +16,11 @@ body{
     justify-content: space-around;
     flex-grow: 1;
 }
+@media(max-width:1000px){
+    .contenitoreFlex{
+        flex-direction: column;
+    }
+    .dimensioni{
+        width: 100%;
+    }
+}
