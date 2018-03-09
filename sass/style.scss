@@ -490,6 +490,14 @@ a:hover
     
   }
 }
+body{
+  font:100% $font-stack;
+  color: $primary-color;
+}
+.shadowLink{
+  width: 70px;
+  box-shadow: 0px 0px 4px -1px #2d2e30, 0px 4px 5px 0px #2d2e30, 4px 0px 10px 0px #2d2e30;
+}
 @media screen and (max-width: 1158px) {
   .fill {
     display:none;
