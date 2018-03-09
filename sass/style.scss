@@ -43,8 +43,8 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    // height:2000px;
-    color: #333;
+    background-color: #F0E9DE;
+    font-size: 15px;
   }
   
   small {
@@ -266,11 +266,6 @@ body {
   
   @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   
-  
-  body {
-    background: #DDD;
-    font-size: 15px;
-  }
   #wrap {
     margin: 50px 92px;
     display: inline-block;
@@ -332,19 +327,6 @@ body {
   input[type="submit"]:hover {
     opacity: 0.8;
   }  
-
-  
-
-body
-{
-  margin: 0;
-  padding: 0;
-  
- 
-  background: #232323;
-  color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
-}
 
 a
 {
@@ -491,14 +473,6 @@ a:hover
     
   }
 }
-body{
-  font:100% $font-stack;
-  color: $primary-color;
-}
-.shadowLink{
-  width: 70px;
-  box-shadow: 0px 0px 4px -1px #2d2e30, 0px 4px 5px 0px #2d2e30, 4px 0px 10px 0px #2d2e30;
-}
 @media screen and (max-width: 1158px) {
   .fill {
     display:none;
@@ -517,9 +491,6 @@ body{
 }
 .dimenx{
   width: 25%;
-}
-.shadow{
-  box-shadow: 0px 0px 4px -1px #2d2e30, 0px 4px 5px 0px #2d2e30, 4px 0px 10px 0px #2d2e30;
 }
 .shadowLink{
   width: 70px;

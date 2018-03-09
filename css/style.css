@@ -29,7 +29,8 @@ body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
-  color: #333; }
+  background-color: #F0E9DE;
+  font-size: 15px; }
 
 small {
   font-size: 12px;
@@ -220,10 +221,6 @@ nav.shift ul li a:hover:after {
 .fill ul {
   font-size: 28px; }
 
-body {
-  background: #DDD;
-  font-size: 15px; }
-
 #wrap {
   margin: 50px 92px;
   display: inline-block;
@@ -280,13 +277,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   opacity: 0.8; }
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #232323;
-  color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif; }
 
 a {
   text-decoration: none;
@@ -382,14 +372,6 @@ a:hover {
     display: flex;
     flex-direction: row-reverse; } }
 
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333; }
-
-.shadowLink {
-  width: 70px;
-  box-shadow: 0px 0px 4px -1px #2d2e30, 0px 4px 5px 0px #2d2e30, 4px 0px 10px 0px #2d2e30; }
-
 @media screen and (max-width: 1158px) {
   .fill {
     display: none; }
@@ -404,9 +386,6 @@ body {
 
 .dimenx {
   width: 25%; }
-
-.shadow {
-  box-shadow: 0px 0px 4px -1px #2d2e30, 0px 4px 5px 0px #2d2e30, 4px 0px 10px 0px #2d2e30; }
 
 .shadowLink {
   width: 70px;
@@ -481,6 +460,11 @@ body {
   .dimenx2 {
     width: 100%; }
   .dimenx3 {
+    width: 100%; }
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.carousel-inner img {
   width: 100%; }
 
 .dimensioni {
@@ -496,4 +480,3 @@ body {
     flex-direction: column; }
   .dimensioni {
     width: 100%; } }
-  }
